@@ -12,8 +12,8 @@ from src.weather_api import PROVINCES, fetch_province_data, fetch_rain_map, fetc
 from src.usage_analytics import register_session, record_province, get_usage_stats
 import uuid
 
-st.set_page_config(page_title="KKU Smart Flood AI V3", page_icon="🌊", layout="wide")
-st.title("🌊 KKU Smart Flood AI")
+st.set_page_config(page_title="TU Smart Flood AI V3", page_icon="🌊", layout="wide")
+st.title("🌊 TU Smart Flood AI")
 st.subheader("ระบบ AI สำหรับประเมินความเสี่ยงน้ำท่วมจากข้อมูลฝน ระดับน้ำ และสถานีตรวจวัดจริง")
 st.info("V3 เชื่อมข้อมูล ThaiWater + Open-Meteo และแสดง Weather Forecast 7 วันตามจังหวัดที่เลือก พร้อม Real-time Water Safety Layer")
 
@@ -338,7 +338,7 @@ st.markdown(
     <div style="text-align:center; padding: 12px 0 6px 0; color: #6b7280; font-size: 0.9rem;">
       <strong>ผู้พัฒนา: นาย วชิรวิทย์ ดอนซุยแป</strong><br>
       โรงเรียนพุทธิรังสีพิบูล · จังหวัดฉะเชิงเทรา<br>
-      KKU Smart Flood AI V3.3
+      TU Smart Flood AI V3.3
     </div>
     """,
     unsafe_allow_html=True,
